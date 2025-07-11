@@ -1,0 +1,6 @@
+This Chrome extension adds the "useskin=vector" query to every Wikipedia URL
+to load the old appearance without having a Wikipedia account.
+
+Clone or download the repo.
+Go to chrome://extensions in Chrome.
+Load the folder.

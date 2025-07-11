@@ -1,0 +1,22 @@
+{
+	"manifest_version": 3,
+	"name": "Wikipedia Vector Skin Redirector",
+	"version": "1.0",
+	"description": "Automatically adds ?useskin=vector to all Wikipedia URLs.",
+	"permissions": [
+		"declarativeNetRequest",
+		"declarativeNetRequestFeedback"
+	],
+	"host_permissions": [
+		"https://*.wikipedia.org/*"
+	],
+	"declarative_net_request": {
+		"rule_resources": [
+			{
+				"id": "redirect_rules",
+				"enabled": true,
+				"path": "rules.json"
+			}
+		]
+	}
+}
